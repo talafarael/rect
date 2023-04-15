@@ -7,7 +7,7 @@ import Inputform from './components/formunput'
 export default function App() {
   const [listOfItems,setlistOFItems]= useState([
     {text: 'fff', key: 3},
-    {text: 'afaf', key:2},
+    {text: 'afaf', },key:2
     
   ])
  const deleteProduct = (key) =>{
